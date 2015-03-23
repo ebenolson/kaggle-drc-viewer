@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <link href="./viewer.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.12/jquery.mousewheel.min.js"></script>
+  <script src="./viewer.js"></script>
+
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="col-xs-6">
+        <div class="viewport" id="left">
+          <div class="row-fluid">
+            <div class="buttonbar col-xs-4"></div>
+            <div class="infobar col-xs-4 pull-right">
+              <div class="filenumber btn btn-primary disabled"></div>            
+              <div class="filename btn btn-primary disabled"></div>
+            </div>
+          </div>
+          <img src=""></img>
+        </div>
+      </div>
+      <div class="col-xs-6">
+        <div class="viewport" id="right">
+          <div class="row-fluid">
+            <div class="buttonbar col-xs-4"></div>
+            <div class="infobar col-xs-4 pull-right">
+              <div class="filenumber btn btn-primary disabled"></div>            
+              <div class="filename btn btn-primary disabled"></div>
+            </div>
+          </div>
+          <img src=""></img>
+        </div>        
+      </div>
+    </div>  
+  </div>
+</body>
+</html>
