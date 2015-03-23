@@ -22,4 +22,4 @@ Scroll the mousewheel while hovering over one of the viewports to cycle through 
 Click a button to change the selected level.
 
 ### Screenshot
-[Imgur](http://i.imgur.com/XaNYzzs.jpg)
+![Imgur](http://i.imgur.com/XaNYzzs.jpg)
